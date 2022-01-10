@@ -1,52 +1,30 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> We are working for Lending club a finance company which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile.
 
-
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The company wants to understand the driving factors (or driver variables) behind loan defaulters (loan_status = 'Charged Off'), i.e. the variables which are strong indicators. The company can use this knowledge for its risk assessment.
+- loan.csv was the data set used for this.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The below are the conclusions:
+1. Higher the interest higher the Charge off ratio.
+2. Higher the DTI ( debt to income ratio) will lead to higher charged off rate.
+3. High income individuals has high repayment rate.
+4. High and higher the income, higher the repayment.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+numpy
+pandas
+seaborn
+scipy
+matplotlib
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+This project was based on EDA, Data Visualisation in Python from Upgard.
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by @venkat212121 - feel free to contact me!
